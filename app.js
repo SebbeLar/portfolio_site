@@ -2,6 +2,7 @@ var express = require('express'),
     bodyParser = require('body-parser'),
     path = require('path'),
     nodemailer = require('nodemailer'),
+    mail = require('./mail'),
     app = express();
 
 var root = __dirname;
@@ -24,7 +25,7 @@ app.post('/contact', function (req, res) {
     var mailOpts, 
         smtpTrans;
     
-    smtpTrans = nodemailer.createTransport('smtps://sebberlarsson%40gmail.com:Abbaabba99@smtp.gmail.com');
+    smtpTrans = nodemailer.createTransport(mail);
     console.log(req.body);
     mailOpts = {
         from: req.body.email, 
