@@ -14,11 +14,11 @@ app.use(express.static(path.join(root + '/public/')));
 app.use(express.static(path.join(root + '/images/')));
 
 app.get('/', function(req, res) {
-    res.sendFile(root + '/index.html');
+    res.sendFile(path.join(root + '/index.html'));
 });
 
 app.get('/api', function(req, res) {
-    res.download(root + '/public/downloads/cv.pdf');
+    res.download(path.join(root + '/public/downloads/cv.pdf'));
 });
 
 app.post('/contact', function (req, res) {
