@@ -2045,7 +2045,7 @@
 	ul {
 		list-style: disc;
 		margin: 0 0 2.25em 0;
-		padding-left: 1em;
+		padding-left: 1em;		
 	}
 
 		ul li {
@@ -2069,7 +2069,7 @@
 
 		ul.feature-icons {
 			list-style: none;
-			padding-left: 0;
+			padding-left: 0;			
 		}
 
 			ul.feature-icons li {
@@ -2079,6 +2079,7 @@
 				position: relative;
 				vertical-align: top;
 				width: 48%;
+				display: inline-block;
 			}
 
 				ul.feature-icons li:before {
@@ -2433,6 +2434,8 @@
 			.features article .image img {
 				display: block;
 				width: 100%;
+				padding: 10px;
+				border: 1px solid #f4f4f4;
 			}
 
 		.features article .inner {
@@ -2571,7 +2574,7 @@
 
 /* One */
 
-	#one:before {
+	#about:before {
 		background-image: url("../banner.jpg");
 		background-position: top right;
 		background-repeat: no-repeat;
