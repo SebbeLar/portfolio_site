@@ -2,7 +2,7 @@ var express = require('express'),
     bodyParser = require('body-parser'),
     path = require('path'),
     nodemailer = require('nodemailer'),
-    mail = require('./mail') || process.env.MAIL,
+    mail =  process.env.MAIL || require('./mail'),
     app = express();
 
 var root = __dirname;
