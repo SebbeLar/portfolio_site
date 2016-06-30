@@ -17,6 +17,10 @@ app.get('/', function(req, res) {
     res.sendFile(path.join(root + '/index.html'));
 });
 
+app.get('/blog', function(req, res) {
+    res.sendFile(path.join(root + '/blog.html'));
+});
+
 app.get('/api', function(req, res) {
     res.download(path.join(root + '/public/downloads/cv.pdf'));
 });

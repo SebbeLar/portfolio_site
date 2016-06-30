@@ -1,0 +1,35 @@
+#footer {
+		background: #fafafa;
+		border-top: 0;
+		color: #c0c0c0;
+		overflow: hidden;
+		padding: 1em 0 1em 0;
+	}
+
+header.major h2 + .timestamp {
+		color: #777;
+		font-size: 0.75em;
+		font-weight: 700;
+		margin-top: -2.75em;
+		}
+
+header p {
+		color: #777;
+		font-size: 1.5em;
+		font-weight: 700;
+		margin-top: 0.75em;
+        margin-bottom: 1.1em;
+		
+}
+
+p {
+    margin: 0 0 1.75em 0;
+}
+
+img {
+    max-width: 80%;
+    max-height: 300px;
+    display: block;
+    margin: auto;
+    margin-bottom: 1.1em;
+}
