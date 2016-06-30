@@ -2626,16 +2626,21 @@
 		/* Basic */
 
 			body, input, select, textarea {
-				font-size: 13pt;
+				font-size: 11pt;
 			}
 
 		/* Header */
 
 			#header {
-				width: 21em;
+				width: 20em;
 			}
 
-				#header > header {
+		/* Wrapper */
+
+			#wrapper {
+				padding-right: 20em;
+			}
+			#header > header {
 					padding: 2em;
 				}
 
@@ -2643,18 +2648,12 @@
 					padding: 1.5em;
 				}
 
-		/* Wrapper */
-
-			#wrapper {
-				padding-right: 21em;
-			}
-
 		/* Main */
 
 			#main > section > .container {
 				padding: 4em 0 2em 0;
 			}
-
+			
 	}
 
 /* Large */

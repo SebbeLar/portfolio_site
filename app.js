@@ -44,7 +44,7 @@ app.post('/contact', function (req, res) {
     });
 });
 
-var PORT = process.env.PORT || 8080;
+var PORT = process.env.PORT || 8081;
 
 app.listen(PORT, process.env.IP, function() {
     console.log('Server listening on port ' + PORT);
